@@ -27,5 +27,3 @@ class Shelter
         pets.shift
     end
 end
-
-require 'pry'; binding.pry
