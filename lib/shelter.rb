@@ -22,6 +22,10 @@ class Shelter
             return false
         end
     end
+
+    def adopt
+        pets.shift
+    end
 end
 
 require 'pry'; binding.pry
