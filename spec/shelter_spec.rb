@@ -68,7 +68,7 @@ RSpec.describe Shelter do
         shelter.add_pet('Frankie')
         shelter.add_pet('Fiona')
 
-        expect (shelter.over_capacity?).to be true
+        expect(shelter.over_capacity?).to be true
     end
   end
 end

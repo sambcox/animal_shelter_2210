@@ -13,4 +13,15 @@ class Shelter
     def call_pets
         pets.map { |pet| "#{pet}!" }
     end
+
+    def over_capacity?
+        if 
+            pets.count() > capacity
+            return true
+        else
+            return false
+        end
+    end
 end
+
+require 'pry'; binding.pry
