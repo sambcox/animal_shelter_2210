@@ -1,6 +1,7 @@
 class Shelter
-    def initialize(shelter_name, capacity)
-        @shelter_name = shelter_name
+    attr_reader :name, :capacity
+    def initialize(name, capacity)
+        @name = name
         @capacity = capacity
     end
 end
